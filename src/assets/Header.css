@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Heebo:wght@100..900&family=Henny+Penny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Heebo;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 100px;
+}
+
+header nav {
+    display: flex;
+    gap: 46px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav a:visited{
+    color: black;
+   
+}
+
+.container{
+    margin: 10%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AboutMe{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 506px;
+    height: 296px;
+}
+
+
+
+.myself{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+}
